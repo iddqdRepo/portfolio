@@ -9,18 +9,20 @@ body {
   font-family: "avenir next", avenir, -apple-system, BlinkMacSystemFont,
     "helvetica neue", helvetica, ubuntu, roboto, noto, "segoe ui", arial,
     sans-serif;
-  color: #374047;
+  /* color: #374047; */
+  margin: 0;
+  background-color: #2a3267;
 }
 #root {
   display: flex;
   flex-direction: column;
   height: 100%;
-  --orchid: #f92672;
+  --orchid: #006f7b;
   --br-blue: #66d9ef;
-  --henn1nk: #a6e22e;
+  --henn1nk: #00a287;
   --spice: #fd971f;
-  --classColour: #ffe792;
-  --parColour: #f8f8f2;
+  --classColour: #82d27c;
+  --parColour: rgb(230, 216, 216);
 }
 body {
   display: flex;
@@ -139,11 +141,10 @@ span {
 }
 
 /* ---- reset ---- */
-
+/* 
 body {
-  margin: 0;
-  background-color: #2a3267;
-}
+
+} */
 
 canvas {
   display: block;
@@ -664,5 +665,16 @@ canvas {
 /* END OF CODING ANIMATION*/
 
 .vertical-section-background {
-  /* background-color: #2a3267; */
+  background-color: #0e131f;
+}
+
+.experience {
+  background-color: #0e131f;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  color: white;
+  font-size: 2.5em;
+  height: 80px;
+  padding-bottom: 80px;
+  padding-top: 50px;
 }

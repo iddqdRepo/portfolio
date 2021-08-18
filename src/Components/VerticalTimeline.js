@@ -9,6 +9,7 @@ import React from "react";
 const Timeline = () => {
   return (
     <>
+      <div className="experience">Professional Experience and Education</div>
       <div className="vertical-section-background">
         <VerticalTimeline>
           <VerticalTimelineElement
@@ -16,7 +17,7 @@ const Timeline = () => {
             //   contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
             date="2018 - present"
-            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            iconStyle={{ background: "#006f7b", color: "#fff" }}
             // icon={<span class="iconify" data-icon="ion:school-outline" />}
             icon={<span class="iconify" data-icon="bi:code" />}
           >
@@ -31,8 +32,8 @@ const Timeline = () => {
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="2010 - 2011"
-            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-            //   icon={<WorkIcon />}
+            iconStyle={{ background: "#006f7b", color: "#fff" }}
+            icon={<span class="iconify" data-icon="bi:code" />}
           >
             <span class="main-badge mr-2 mb-2 badge badge-pill">
               Angular 8/9/10
@@ -51,8 +52,8 @@ const Timeline = () => {
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="2008 - 2010"
-            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-            //   icon={<WorkIcon />}
+            iconStyle={{ background: "#006f7b", color: "#fff" }}
+            icon={<span class="iconify" data-icon="bi:code" />}
           >
             <h3 className="vertical-timeline-element-title">
               Data Quality Analyst
@@ -65,8 +66,8 @@ const Timeline = () => {
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="2006 - 2008"
-            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-            //   icon={<WorkIcon />}
+            iconStyle={{ background: "#006f7b", color: "#fff" }}
+            icon={<span class="iconify" data-icon="bi:code" />}
           >
             <h3 className="vertical-timeline-element-title">Change Analyst</h3>
             <h4 className="vertical-timeline-element-subtitle">
@@ -77,8 +78,8 @@ const Timeline = () => {
           <VerticalTimelineElement
             className="vertical-timeline-element--education"
             date="April 2013"
-            iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
-            //   icon={<SchoolIcon />}
+            iconStyle={{ background: "#00a287", color: "#fff" }}
+            icon={<span class="iconify" data-icon="ion:school-outline"></span>}
           >
             <h3 className="vertical-timeline-element-title">
               Bachelors Degree in Software Engineering
@@ -91,22 +92,22 @@ const Timeline = () => {
           <VerticalTimelineElement
             className="vertical-timeline-element--education"
             date="November 2012"
-            iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
-            //   icon={<SchoolIcon />}
+            iconStyle={{ background: "#00a287", color: "#fff" }}
+            icon={<span class="iconify" data-icon="ion:school-outline"></span>}
           >
             <h3 className="vertical-timeline-element-title">
-              Agile Development Scrum Master
+              Foundation Degree in Science and Computing
             </h3>
             <h4 className="vertical-timeline-element-subtitle">
-              Certification
+              Southwest College, Northern Ireland
             </h4>
             <p>Creative Direction, User Experience, Visual Design</p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--education"
             date="2002 - 2006"
-            iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
-            //   icon={<SchoolIcon />}
+            iconStyle={{ background: "#00a287", color: "#fff" }}
+            icon={<span class="iconify" data-icon="ion:school-outline"></span>}
           >
             <h3 className="vertical-timeline-element-title">
               Bachelor of Science in Interactive Digital Media Visual Imaging
@@ -117,8 +118,8 @@ const Timeline = () => {
             <p>Creative Direction, Visual Design</p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            iconStyle={{ background: "rgb(16, 204, 82)", color: "#fff" }}
-            //   icon={<StarIcon />}
+            iconStyle={{ background: "#00a287", color: "#fff" }}
+            // icon={<span class="iconify" data-icon="emojione-monotone:baby" />}
           />
         </VerticalTimeline>
         ;
