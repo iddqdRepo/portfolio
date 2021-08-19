@@ -5,11 +5,11 @@ import "../styles.css";
 const Navbar = () => {
   return (
     <>
-      <nav>
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Blog</a>
-        <a href="#">Portfolio</a>
+      <nav className="sticky">
+        <a href="#home">Home</a>
+        <a href="#skills">Skills</a>
+        <a href="#timeline">Experience</a>
+        <a href="#">Work</a>
         <a href="#">Contact</a>
         <div className="animation start-home"></div>
       </nav>

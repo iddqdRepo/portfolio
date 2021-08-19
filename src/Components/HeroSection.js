@@ -56,13 +56,15 @@ function Image({ ratio, src }) {
   );
 }
 const AnimatedTypingComponent = () => (
-  <Typing speed={200}>
+  <Typing speed={150}>
     {/* <span>This span will get typed.</span>
     <Typing.Backspace count={25} /> */}
-    <span className="typed-text">I am aso</span>
+    <span className="typed-text">I am ade</span>
     <Typing.Backspace count={4} />
-    <span className="typed-text"> a Software Engineer.</span>
-    {/* <Typing.Backspace count={25} /> */}
+    <span className="typed-text"> a Developer</span>
+    <Typing.Backspace count={10} />
+    <span className="typed-text"> Software Engineer.</span>
+    {/* <Typing.Backspace count={18} /> */}
   </Typing>
 );
 function CodingAnimation() {

@@ -2,13 +2,23 @@ import Navbar from "./Components/Navbar";
 import "./App.css";
 import HeroSection from "./Components/HeroSection";
 import Timeline from "./Components/VerticalTimeline";
+import Skills from "./Components/Skills";
 
 function App() {
   return (
     <>
-      <Navbar />
-      <HeroSection />
-      <Timeline />
+      <main id="home">
+        <Navbar />
+        <section id="home">
+          <HeroSection />
+        </section>
+        <section id="skills">
+          <Skills />
+        </section>
+        <section id="timeline">
+          <Timeline />
+        </section>
+      </main>
     </>
   );
 }

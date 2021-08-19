@@ -110,10 +110,10 @@ const Timeline = () => {
             icon={<span class="iconify" data-icon="ion:school-outline"></span>}
           >
             <h3 className="vertical-timeline-element-title">
-              Bachelor of Science in Interactive Digital Media Visual Imaging
+              BTEC National Diploma in Information Communication Technologies
             </h3>
             <h4 className="vertical-timeline-element-subtitle">
-              Bachelor Degree
+              Southwest College, Northern Ireland
             </h4>
             <p>Creative Direction, Visual Design</p>
           </VerticalTimelineElement>
