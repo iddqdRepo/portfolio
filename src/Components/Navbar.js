@@ -8,8 +8,8 @@ const Navbar = () => {
       <nav className="sticky">
         <a href="#home">Home</a>
         <a href="#skills">Skills</a>
-        <a href="#timeline">Experience</a>
-        <a href="#">Work</a>
+        <a href="#timeline">Work</a>
+        <a href="#">Projects</a>
         <a href="#">Contact</a>
         <div className="animation start-home"></div>
       </nav>
