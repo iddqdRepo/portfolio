@@ -18,7 +18,7 @@ const Skills = () => {
           <span
             className="iconify icon-skills"
             style={{ color: "white" }}
-            data-icon="bx:bxl-python"
+            data-icon="cib:next-js"
             data-width="80"
             data-height="80"
           ></span>
