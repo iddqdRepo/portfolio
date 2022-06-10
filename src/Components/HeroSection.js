@@ -123,7 +123,6 @@ function CodingAnimation() {
           </div>
         </div>
       </div>
-      
     </>
   );
 }
